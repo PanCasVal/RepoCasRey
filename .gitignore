@@ -1,0 +1,22 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Config local
+.env
+.env.*
+
+# Cache PHP
+*.cache
+php_errors.log
+
+# Archivos de editor
+.vscode/
+.idea/
