@@ -7,9 +7,6 @@ Sitio web estático de una pastelería, listo para GitHub Pages.
 - `Panqués y Pays` con 8 a 10 porciones
 - `Gelatinas` con 10 porciones
 
-## Imágenes
-Las imágenes están preparadas como SVG dentro de `assets/img/` para que después las reemplaces por fotos reales si quieres.
-
 ## Ejecutar localmente
 Puedes abrir `index.html` directamente en el navegador o usar un servidor estático simple:
 
