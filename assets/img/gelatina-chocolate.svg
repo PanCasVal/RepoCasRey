@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Gelatina de Chocolate</title>
+  <desc id="desc">Ilustración de marcador para Gelatina de Chocolate</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8d5b3a"/>
+      <stop offset="100%" stop-color="#f8ebe1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)"/>
+  <rect x="220" y="135" width="360" height="230" rx="32" fill="#fff" opacity="0.93"/>
+  <rect x="265" y="210" width="270" height="120" rx="28" fill="#6f3f25"/>
+  <rect x="285" y="230" width="230" height="18" rx="9" fill="#8f5a3d"/>
+  <rect x="285" y="258" width="230" height="18" rx="9" fill="#a57254"/>
+  <rect x="285" y="286" width="230" height="18" rx="9" fill="#c08a6d"/>
+  <text x="400" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#fff4e8">Chocolate</text>
+</svg>
