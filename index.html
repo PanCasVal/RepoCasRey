@@ -1,22 +1,3 @@
-<?php
-$productos = [
-    [
-        'nombre' => 'Pastel de fresa',
-        'precio' => '$320',
-        'descripcion' => 'Sabor intenso, decorado con fresas frescas.',
-    ],
-    [
-        'nombre' => 'Pastel de chocolate',
-        'precio' => '$360',
-        'descripcion' => 'Capas suaves de chocolate con ganache.',
-    ],
-    [
-        'nombre' => 'Pastel de vainilla',
-        'precio' => '$300',
-        'descripcion' => 'Clásico, ligero y perfecto para cualquier ocasión.',
-    ],
-];
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -60,17 +41,35 @@ $productos = [
             <div class="container">
                 <h2>Nuestros pasteles</h2>
                 <div class="product-grid">
-                    <?php foreach ($productos as $producto): ?>
-                        <article class="product-card">
-                            <div class="product-image">🍰</div>
-                            <h3><?php echo htmlspecialchars($producto['nombre']); ?></h3>
-                            <p><?php echo htmlspecialchars($producto['descripcion']); ?></p>
-                            <div class="product-footer">
-                                <span><?php echo htmlspecialchars($producto['precio']); ?></span>
-                                <button type="button">Pedir</button>
-                            </div>
-                        </article>
-                    <?php endforeach; ?>
+                    <article class="product-card">
+                        <div class="product-image">🍰</div>
+                        <h3>Pastel de fresa</h3>
+                        <p>Sabor intenso, decorado con fresas frescas.</p>
+                        <div class="product-footer">
+                            <span>$320</span>
+                            <button type="button">Pedir</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">🍫</div>
+                        <h3>Pastel de chocolate</h3>
+                        <p>Capas suaves de chocolate con ganache.</p>
+                        <div class="product-footer">
+                            <span>$360</span>
+                            <button type="button">Pedir</button>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">🎂</div>
+                        <h3>Pastel de vainilla</h3>
+                        <p>Clásico, ligero y perfecto para cualquier ocasión.</p>
+                        <div class="product-footer">
+                            <span>$300</span>
+                            <button type="button">Pedir</button>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>

@@ -1,29 +1,35 @@
 # Pasteles
 
-Sitio web simple en PHP, HTML y JavaScript para una pastelería.
-
-## Requisitos
-- PHP 8.x
-- Git
+Sitio web estático de una pastelería, listo para GitHub Pages.
 
 ## Ejecutar localmente
+Puedes abrir `index.html` directamente en el navegador o usar un servidor estático simple:
+
 ```bash
-php -S localhost:8000
+python -m http.server 8000
 ```
 
-Luego abre en tu navegador:
+Luego abre:
+
 ```text
 http://localhost:8000
 ```
 
 ## Estructura
-- `index.php` : página principal
+- `index.html` : página principal
 - `assets/css/style.css` : estilos
 - `assets/js/app.js` : interactividad
 
+## Publicar en GitHub Pages
+1. Sube los cambios al repositorio.
+2. Ve a `Settings` > `Pages`.
+3. En `Build and deployment`, elige `Deploy from a branch`.
+4. Selecciona la rama `main` y la carpeta `/root`.
+5. Guarda y espera el enlace público.
+
 ## Git
 ```bash
-git init -b main
 git add .
-git commit -m "Primer commit"
+git commit -m "Convert to static site"
+git push
 ```
