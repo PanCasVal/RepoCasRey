@@ -253,6 +253,13 @@ body {
     font-weight: 600;
 }
 
+.contact-actions {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
 .contact {
     padding: 2rem 0 4rem;
 }

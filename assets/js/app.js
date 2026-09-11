@@ -4,14 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
         year.textContent = new Date().getFullYear();
     }
 
-    const buttons = document.querySelectorAll('.product-footer button');
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            button.textContent = 'Agregado';
-            button.disabled = true;
-        });
-    });
-
     document.querySelectorAll('[data-carousel-group]').forEach((group) => {
         const carousel = group.querySelector('[data-carousel]');
         const prevButton = group.querySelector('[data-carousel-prev]');
